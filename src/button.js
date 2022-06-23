@@ -14,7 +14,7 @@ const ButtonContanier = styled.button`
     cursor: pointer;
     border: 1px solid ${COLORS.BLACK};
     color: ${COLORS.WHITE};
-    background: ${COLORS.BLACK};
+    background: ${COLORS.RED};
   }
 `;
 

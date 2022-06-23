@@ -8,7 +8,7 @@ export const SIZES = {
   DESKTOP: "2560px"
 };
 
-// mobile first design
+
 export const devices = {
   mobileS: `(min-width: ${SIZES.MOBILE_S})`,
   mobileM: `(min-width: ${SIZES.MOBILE_M})`,
