@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Text } from "./fonts";
 import { COLORS } from "./styles";
 
-// styled.element``
 const ButtonContanier = styled.button`
   border: 1px solid ${COLORS.BLACK};
   border-radius: 8px;
@@ -18,7 +17,7 @@ const ButtonContanier = styled.button`
   }
 `;
 
-const Button = (props) => {
+export const Button = (props) => {
   return (
     <ButtonContanier>
       <Text small dark>
@@ -27,5 +26,3 @@ const Button = (props) => {
     </ButtonContanier>
   );
 };
-
-export default Button;

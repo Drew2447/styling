@@ -1,4 +1,4 @@
-import Button from "./button";
+import { Button } from "./button";
 import { Card, CardContainer } from "./cardContainer";
 import { Title, Text } from "./fonts";
 
@@ -10,10 +10,9 @@ const Paragraph = ({ children, color }) => {
 
 export default function App() {
   return (
-    <div>
+    <div style = {{overflow:"hidden"}}>
       <p>Hello</p>
       <CardContainer>
-        <Card />
         <Card />
         <Card />
         <Card />

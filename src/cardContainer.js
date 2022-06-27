@@ -14,25 +14,29 @@ export const CardContainer = styled.div`
 `;
 
 const rotate = keyframes`
-  from {
+  0%{
     transform: rotate(0deg);
     background: red;
   }
-
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: rotate(180deg);
     background: blue;
   }
+  100%{
+    transform: rotate(360deg);
+    background: red;
+  }
+  
 `;
 
 export const Card = styled.div`
   min-width: 200px;
   height: 300px;
   border: 1px solid ${COLORS.BLACK};
-  background: green;
+
 
   @media ${devices.tablet} {
     background: red;
-    animation: ${rotate} 8s linear infinite;
+    animation: ${rotate} 4s linear infinite;
   }
 `;
